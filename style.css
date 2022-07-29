@@ -135,3 +135,17 @@ footer{
     text-decoration: none;
     color: #F4FAFD;
 }
+
+
+@media only screen and (max-width: 600px){
+    
+    
+    .carousel-item img{
+        image-rendering: cover;
+    }
+    
+    .companies{
+       display: none;
+    }
+   
+}
